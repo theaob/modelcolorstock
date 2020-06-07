@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<ColorsData xmlns="http://tempuri.org/DataSet1.xsd">
+  <BrandTable>
+    <BrandID>1</BrandID>
+    <BrandName>Revell</BrandName>
+  </BrandTable>
+  <BrandTable>
+    <BrandID>2</BrandID>
+    <BrandName>Tamiya</BrandName>
+  </BrandTable>
+  <BrandTable>
+    <BrandID>3</BrandID>
+    <BrandName>Airfix</BrandName>
+  </BrandTable>
+  <PaintType>
+    <PaintTypeID>0</PaintTypeID>
+    <TypeName>Enamel</TypeName>
+  </PaintType>
+  <PaintType>
+    <PaintTypeID>1</PaintTypeID>
+    <TypeName>Acrylic</TypeName>
+  </PaintType>
+  <PaintType>
+    <PaintTypeID>2</PaintTypeID>
+    <TypeName>Oil</TypeName>
+  </PaintType>
+</ColorsData>

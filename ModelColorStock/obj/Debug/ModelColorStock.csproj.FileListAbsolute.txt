@@ -1,0 +1,12 @@
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\bin\Debug\ModelColorStock.exe.config
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\bin\Debug\ModelColorStock.exe
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\bin\Debug\ModelColorStock.pdb
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.Form1.resources
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.Properties.Resources.resources
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.csproj.GenerateResource.cache
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.csproj.CoreCompileInputs.cache
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.exe
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.pdb
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.DataGridViewForm.resources
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.ColorDetailForm.resources
+C:\Users\onur\source\repos\ModelColorStock\ModelColorStock\obj\Debug\ModelColorStock.csprojAssemblyReference.cache

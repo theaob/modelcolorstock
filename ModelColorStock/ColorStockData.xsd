@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ColorsData" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ColorsData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ColorsData" msprop:Generator_UserDSName="ColorsData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BrandTable" msprop:Generator_TableClassName="BrandTableDataTable" msprop:Generator_TableVarName="tableBrandTable" msprop:Generator_TablePropName="BrandTable" msprop:Generator_RowDeletingName="BrandTableRowDeleting" msprop:Generator_RowChangingName="BrandTableRowChanging" msprop:Generator_RowEvHandlerName="BrandTableRowChangeEventHandler" msprop:Generator_RowDeletedName="BrandTableRowDeleted" msprop:Generator_UserTableName="BrandTable" msprop:Generator_RowChangedName="BrandTableRowChanged" msprop:Generator_RowEvArgName="BrandTableRowChangeEvent" msprop:Generator_RowClassName="BrandTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BrandID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnBrandID" msprop:Generator_ColumnPropNameInRow="BrandID" msprop:Generator_ColumnPropNameInTable="BrandIDColumn" msprop:Generator_UserColumnName="BrandID" type="xs:int" minOccurs="0" />
+              <xs:element name="BrandName" msprop:Generator_ColumnVarNameInTable="columnBrandName" msprop:Generator_ColumnPropNameInRow="BrandName" msprop:Generator_ColumnPropNameInTable="BrandNameColumn" msprop:Generator_UserColumnName="BrandName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ColorDetail" msprop:Generator_TableClassName="ColorDetailDataTable" msprop:Generator_TableVarName="tableColorDetail" msprop:Generator_TablePropName="ColorDetail" msprop:Generator_RowDeletingName="ColorDetailRowDeleting" msprop:Generator_RowChangingName="ColorDetailRowChanging" msprop:Generator_RowEvHandlerName="ColorDetailRowChangeEventHandler" msprop:Generator_RowDeletedName="ColorDetailRowDeleted" msprop:Generator_UserTableName="ColorDetail" msprop:Generator_RowChangedName="ColorDetailRowChanged" msprop:Generator_RowEvArgName="ColorDetailRowChangeEvent" msprop:Generator_RowClassName="ColorDetailRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ColorID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnColorID" msprop:Generator_ColumnPropNameInRow="ColorID" msprop:Generator_ColumnPropNameInTable="ColorIDColumn" msprop:Generator_UserColumnName="ColorID" type="xs:int" minOccurs="0" />
+              <xs:element name="ColorName" msprop:Generator_ColumnVarNameInTable="columnColorName" msprop:Generator_ColumnPropNameInRow="ColorName" msprop:Generator_ColumnPropNameInTable="ColorNameColumn" msprop:Generator_UserColumnName="ColorName" type="xs:string" minOccurs="0" />
+              <xs:element name="ColorCodeHex" msprop:Generator_ColumnVarNameInTable="columnColorCodeHex" msprop:Generator_ColumnPropNameInRow="ColorCodeHex" msprop:Generator_ColumnPropNameInTable="ColorCodeHexColumn" msprop:Generator_UserColumnName="ColorCodeHex" type="xs:string" minOccurs="0" />
+              <xs:element name="RevellColorCode" msprop:Generator_ColumnVarNameInTable="columnRevellColorCode" msprop:Generator_ColumnPropNameInRow="RevellColorCode" msprop:Generator_ColumnPropNameInTable="RevellColorCodeColumn" msprop:Generator_UserColumnName="RevellColorCode" type="xs:string" minOccurs="0" />
+              <xs:element name="TamiyaColorCode" msprop:Generator_ColumnVarNameInTable="columnTamiyaColorCode" msprop:Generator_ColumnPropNameInRow="TamiyaColorCode" msprop:Generator_ColumnPropNameInTable="TamiyaColorCodeColumn" msprop:Generator_UserColumnName="TamiyaColorCode" type="xs:string" minOccurs="0" />
+              <xs:element name="HumbrolColorCode" msprop:Generator_ColumnVarNameInTable="columnHumbrolColorCode" msprop:Generator_ColumnPropNameInRow="HumbrolColorCode" msprop:Generator_ColumnPropNameInTable="HumbrolColorCodeColumn" msprop:Generator_UserColumnName="HumbrolColorCode" type="xs:string" minOccurs="0" />
+              <xs:element name="OtherColorCode" msprop:Generator_ColumnVarNameInTable="columnOtherColorCode" msprop:Generator_ColumnPropNameInRow="OtherColorCode" msprop:Generator_ColumnPropNameInTable="OtherColorCodeColumn" msprop:Generator_UserColumnName="OtherColorCode" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Stock" msprop:Generator_TableClassName="StockDataTable" msprop:Generator_TableVarName="tableStock" msprop:Generator_TablePropName="Stock" msprop:Generator_RowDeletingName="StockRowDeleting" msprop:Generator_RowChangingName="StockRowChanging" msprop:Generator_RowEvHandlerName="StockRowChangeEventHandler" msprop:Generator_RowDeletedName="StockRowDeleted" msprop:Generator_UserTableName="Stock" msprop:Generator_RowChangedName="StockRowChanged" msprop:Generator_RowEvArgName="StockRowChangeEvent" msprop:Generator_RowClassName="StockRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StockID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_ColumnVarNameInTable="columnStockID" msprop:Generator_ColumnPropNameInRow="StockID" msprop:Generator_ColumnPropNameInTable="StockIDColumn" msprop:Generator_UserColumnName="StockID" type="xs:int" minOccurs="0" />
+              <xs:element name="ColorID" msprop:Generator_ColumnVarNameInTable="columnColorID" msprop:Generator_ColumnPropNameInRow="ColorID" msprop:Generator_ColumnPropNameInTable="ColorIDColumn" msprop:Generator_UserColumnName="ColorID" type="xs:int" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_UserColumnName="Amount" type="xs:int" minOccurs="0" />
+              <xs:element name="PaintType" msprop:Generator_ColumnVarNameInTable="columnPaintType" msprop:Generator_ColumnPropNameInRow="PaintType" msprop:Generator_ColumnPropNameInTable="PaintTypeColumn" msprop:Generator_UserColumnName="PaintType" type="xs:int" minOccurs="0" />
+              <xs:element name="Brand" msprop:Generator_ColumnVarNameInTable="columnBrand" msprop:Generator_ColumnPropNameInRow="Brand" msprop:Generator_ColumnPropNameInTable="BrandColumn" msprop:Generator_UserColumnName="Brand" type="xs:int" minOccurs="0" />
+              <xs:element name="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnPropNameInTable="LocationColumn" msprop:Generator_UserColumnName="Location" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PaintType" msprop:Generator_TableClassName="PaintTypeDataTable" msprop:Generator_TableVarName="tablePaintType" msprop:Generator_RowChangedName="PaintTypeRowChanged" msprop:Generator_TablePropName="PaintType" msprop:Generator_RowDeletingName="PaintTypeRowDeleting" msprop:Generator_RowChangingName="PaintTypeRowChanging" msprop:Generator_RowEvHandlerName="PaintTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="PaintTypeRowDeleted" msprop:Generator_RowClassName="PaintTypeRow" msprop:Generator_UserTableName="PaintType" msprop:Generator_RowEvArgName="PaintTypeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PaintTypeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnPaintTypeID" msprop:Generator_ColumnPropNameInRow="PaintTypeID" msprop:Generator_ColumnPropNameInTable="PaintTypeIDColumn" msprop:Generator_UserColumnName="PaintTypeID" type="xs:int" minOccurs="0" />
+              <xs:element name="TypeName" msprop:Generator_ColumnVarNameInTable="columnTypeName" msprop:Generator_ColumnPropNameInRow="TypeName" msprop:Generator_ColumnPropNameInTable="TypeNameColumn" msprop:Generator_UserColumnName="TypeName" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ID">
+      <xs:selector xpath=".//mstns:BrandTable" />
+      <xs:field xpath="mstns:BrandID" />
+    </xs:unique>
+    <xs:unique name="ColorDetailKey1">
+      <xs:selector xpath=".//mstns:ColorDetail" />
+      <xs:field xpath="mstns:ColorID" />
+    </xs:unique>
+    <xs:unique name="StockKey1">
+      <xs:selector xpath=".//mstns:Stock" />
+      <xs:field xpath="mstns:StockID" />
+    </xs:unique>
+    <xs:unique name="StockKey2">
+      <xs:selector xpath=".//mstns:Stock" />
+      <xs:field xpath="mstns:StockID" />
+      <xs:field xpath="mstns:ColorID" />
+    </xs:unique>
+    <xs:unique name="PaintTypeKey1">
+      <xs:selector xpath=".//mstns:PaintType" />
+      <xs:field xpath="mstns:PaintTypeID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="Stock_PaintType" msdata:parent="Stock" msdata:child="PaintType" msdata:parentkey="PaintType" msdata:childkey="PaintTypeID" msprop:Generator_UserChildTable="PaintType" msprop:Generator_ChildPropName="GetPaintTypeRows" msprop:Generator_UserRelationName="Stock_PaintType" msprop:Generator_RelationVarName="relationStock_PaintType" msprop:Generator_UserParentTable="Stock" msprop:Generator_ParentPropName="StockRow" />
+      <msdata:Relationship name="Stock_BrandTable" msdata:parent="Stock" msdata:child="BrandTable" msdata:parentkey="Brand" msdata:childkey="BrandID" msprop:Generator_UserChildTable="BrandTable" msprop:Generator_ChildPropName="GetBrandTableRows" msprop:Generator_UserRelationName="Stock_BrandTable" msprop:Generator_ParentPropName="StockRow" msprop:Generator_RelationVarName="relationStock_BrandTable" msprop:Generator_UserParentTable="Stock" />
+      <msdata:Relationship name="Stock_ColorDetail" msdata:parent="Stock" msdata:child="ColorDetail" msdata:parentkey="ColorID" msdata:childkey="ColorID" msprop:Generator_UserChildTable="ColorDetail" msprop:Generator_ChildPropName="GetColorDetailRows" msprop:Generator_UserRelationName="Stock_ColorDetail" msprop:Generator_RelationVarName="relationStock_ColorDetail" msprop:Generator_UserParentTable="Stock" msprop:Generator_ParentPropName="StockRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
