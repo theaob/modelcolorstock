@@ -7,19 +7,19 @@
 <DiagramLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ex:showrelationlabel="False" ViewPortX="0" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:BrandTable" ZOrder="7" X="993" Y="251" Height="163" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="159" />
-    <Shape ID="DesignTable:ColorDetail" ZOrder="6" X="271" Y="28" Height="162" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="158" />
-    <Shape ID="DesignTable:Stock" ZOrder="5" X="626" Y="27" Height="162" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="158" />
+    <Shape ID="DesignTable:ColorDetail" ZOrder="6" X="282" Y="38" Height="162" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="24" SplitterPosition="158" />
+    <Shape ID="DesignTable:Stock" ZOrder="5" X="600" Y="38" Height="162" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="158" />
     <Shape ID="DesignTable:PaintType" ZOrder="4" X="612" Y="372" Height="67" Width="150" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="63" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:Stock_PaintType" ZOrder="3" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>651</X>
-          <Y>189</Y>
+          <X>625</X>
+          <Y>200</Y>
         </Point>
         <Point>
-          <X>651</X>
+          <X>625</X>
           <Y>372</Y>
         </Point>
       </RoutePoints>
@@ -27,11 +27,11 @@
     <Connector ID="DesignRelation:Stock_BrandTable" ZOrder="2" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>759</X>
-          <Y>189</Y>
+          <X>733</X>
+          <Y>200</Y>
         </Point>
         <Point>
-          <X>759</X>
+          <X>733</X>
           <Y>291</Y>
         </Point>
         <Point>
@@ -43,12 +43,12 @@
     <Connector ID="DesignRelation:Stock_ColorDetail" ZOrder="1" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>626</X>
-          <Y>35</Y>
+          <X>600</X>
+          <Y>56</Y>
         </Point>
         <Point>
-          <X>421</X>
-          <Y>35</Y>
+          <X>432</X>
+          <Y>56</Y>
         </Point>
       </RoutePoints>
     </Connector>

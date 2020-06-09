@@ -30,18 +30,18 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.colorsData1 = new ModelColorStock.ColorsData();
+            this.colorIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colorNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colorCodeHexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.revellColorCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tamiyaColorCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.humbrolColorCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.otherColorCodeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colorDetailBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colorsData = new ModelColorStock.ColorsData();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.colorsData1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorDetailBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.colorsData)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -52,71 +52,72 @@
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7});
+            this.colorIDDataGridViewTextBoxColumn,
+            this.colorNameDataGridViewTextBoxColumn,
+            this.colorCodeHexDataGridViewTextBoxColumn,
+            this.revellColorCodeDataGridViewTextBoxColumn,
+            this.tamiyaColorCodeDataGridViewTextBoxColumn,
+            this.humbrolColorCodeDataGridViewTextBoxColumn,
+            this.otherColorCodeDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.colorDetailBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(12, 12);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(776, 426);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // colorsData1
+            // colorIDDataGridViewTextBoxColumn
             // 
-            this.colorsData1.DataSetName = "ColorsData";
-            this.colorsData1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.colorIDDataGridViewTextBoxColumn.DataPropertyName = "ColorID";
+            this.colorIDDataGridViewTextBoxColumn.HeaderText = "ColorID";
+            this.colorIDDataGridViewTextBoxColumn.Name = "colorIDDataGridViewTextBoxColumn";
+            this.colorIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // colorNameDataGridViewTextBoxColumn
+            // 
+            this.colorNameDataGridViewTextBoxColumn.DataPropertyName = "ColorName";
+            this.colorNameDataGridViewTextBoxColumn.HeaderText = "ColorName";
+            this.colorNameDataGridViewTextBoxColumn.Name = "colorNameDataGridViewTextBoxColumn";
+            // 
+            // colorCodeHexDataGridViewTextBoxColumn
+            // 
+            this.colorCodeHexDataGridViewTextBoxColumn.DataPropertyName = "ColorCodeHex";
+            this.colorCodeHexDataGridViewTextBoxColumn.HeaderText = "ColorCodeHex";
+            this.colorCodeHexDataGridViewTextBoxColumn.Name = "colorCodeHexDataGridViewTextBoxColumn";
+            // 
+            // revellColorCodeDataGridViewTextBoxColumn
+            // 
+            this.revellColorCodeDataGridViewTextBoxColumn.DataPropertyName = "RevellColorCode";
+            this.revellColorCodeDataGridViewTextBoxColumn.HeaderText = "RevellColorCode";
+            this.revellColorCodeDataGridViewTextBoxColumn.Name = "revellColorCodeDataGridViewTextBoxColumn";
+            // 
+            // tamiyaColorCodeDataGridViewTextBoxColumn
+            // 
+            this.tamiyaColorCodeDataGridViewTextBoxColumn.DataPropertyName = "TamiyaColorCode";
+            this.tamiyaColorCodeDataGridViewTextBoxColumn.HeaderText = "TamiyaColorCode";
+            this.tamiyaColorCodeDataGridViewTextBoxColumn.Name = "tamiyaColorCodeDataGridViewTextBoxColumn";
+            // 
+            // humbrolColorCodeDataGridViewTextBoxColumn
+            // 
+            this.humbrolColorCodeDataGridViewTextBoxColumn.DataPropertyName = "HumbrolColorCode";
+            this.humbrolColorCodeDataGridViewTextBoxColumn.HeaderText = "HumbrolColorCode";
+            this.humbrolColorCodeDataGridViewTextBoxColumn.Name = "humbrolColorCodeDataGridViewTextBoxColumn";
+            // 
+            // otherColorCodeDataGridViewTextBoxColumn
+            // 
+            this.otherColorCodeDataGridViewTextBoxColumn.DataPropertyName = "OtherColorCode";
+            this.otherColorCodeDataGridViewTextBoxColumn.HeaderText = "OtherColorCode";
+            this.otherColorCodeDataGridViewTextBoxColumn.Name = "otherColorCodeDataGridViewTextBoxColumn";
             // 
             // colorDetailBindingSource
             // 
             this.colorDetailBindingSource.DataMember = "ColorDetail";
-            this.colorDetailBindingSource.DataSource = this.colorsData1;
+            this.colorDetailBindingSource.DataSource = this.colorsData;
             // 
-            // dataGridViewTextBoxColumn1
+            // colorsData
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "ColorID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "ColorID";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "ColorName";
-            this.dataGridViewTextBoxColumn2.HeaderText = "ColorName";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "ColorCodeHex";
-            this.dataGridViewTextBoxColumn3.HeaderText = "ColorCodeHex";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "RevellColorCode";
-            this.dataGridViewTextBoxColumn4.HeaderText = "RevellColorCode";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "TamiyaColorCode";
-            this.dataGridViewTextBoxColumn5.HeaderText = "TamiyaColorCode";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "HumbrolColorCode";
-            this.dataGridViewTextBoxColumn6.HeaderText = "HumbrolColorCode";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "OtherColorCode";
-            this.dataGridViewTextBoxColumn7.HeaderText = "OtherColorCode";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.colorsData.DataSetName = "ColorsData";
+            this.colorsData.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // ColorDetailForm
             // 
@@ -126,9 +127,10 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "ColorDetailForm";
             this.Text = "ColorDetailForm";
+            this.Load += new System.EventHandler(this.ColorDetailForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.colorsData1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.colorDetailBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.colorsData)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -136,7 +138,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private ColorsData colorsData;
         private System.Windows.Forms.DataGridViewTextBoxColumn colorIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn colorNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn colorCodeHexDataGridViewTextBoxColumn;
@@ -144,14 +145,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tamiyaColorCodeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn humbrolColorCodeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn otherColorCodeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.BindingSource colorDetailBindingSource;
-        private ColorsData colorsData1;
+        private ColorsData colorsData;
     }
 }

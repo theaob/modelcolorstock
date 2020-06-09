@@ -1,20 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using static ModelColorStock.DataGridViewColoredColumn;
 
 namespace ModelColorStock
 {
     public partial class ColorDetailForm : Form
     {
-        public ColorDetailForm()
+        BindingSource sourceSet;
+
+        public ColorDetailForm(ColorsData data)
         {
             InitializeComponent();
+            
+            sourceSet = new BindingSource(data, "ColorDetail");
+            dataGridView1.DataSource = sourceSet;
+
+            dataGridView1.Columns[2].CellTemplate = new DataGridViewColoredCell();
+        }
+
+        private void ColorDetailForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
